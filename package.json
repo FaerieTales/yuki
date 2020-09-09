@@ -1,0 +1,21 @@
+{
+  "name": "khbootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss assets/scss/styles.scss assets/css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "simpson",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.14.1",
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "phaser": "^3.24.1"
+  }
+}

@@ -1,0 +1,446 @@
+/*operaciones sass*/
+/*Mediaqueries*/
+#indexbackground {
+  text-align: justify; }
+
+.iframekh {
+  width: 100%;
+  height: 300px; }
+
+.diviframe {
+  width: 100%; }
+
+#khsubtitle {
+  font-family: "Press Start 2P", cursive;
+  font-size: 24px; }
+
+.navbar-brand {
+  font-family: "Mystery Quest", cursive; }
+
+.nav-link {
+  font-family: "Spirax", cursive;
+  text-shadow: 0 0 3px #487CFF, 0 0 5px #1430FF; }
+
+.jumbotron {
+  background: radial-gradient(ellipse, #000000, #000263); }
+
+.khquote {
+  font-family: "Spirax", cursive;
+  font-weight: bolder;
+  font-size: 18px;
+  text-shadow: 0 0 3px #FFFFFF, 0 0 5px #EAEAEA; }
+
+div.container {
+  color: black;
+  background: linear-gradient(#85c0ff, #73dcff);
+  width: 100%;
+  box-shadow: 0 2px 1px 0 rgba(0, 0, 0, 0.2); }
+
+.khstory {
+  font-family: "Mystery Quest", cursive;
+  text-decoration: underline;
+  text-decoration-color: #440091;
+  text-decoration-style: wavy; }
+
+#khstoryid {
+  font-size: 16px;
+  font-family: "Spirax", cursive;
+  background: linear-gradient(black, darkblue);
+  color: white;
+  padding: 20px;
+  border-radius: 5px; }
+
+#aquaimageid {
+  text-align: center; }
+
+.khcharacters, .about, .bestworlds {
+  font-family: "Mystery Quest", cursive;
+  text-shadow: gold -1px -2px 0.5em; }
+
+.tablekh {
+  background: linear-gradient(to bottom, #ce80ff, #66c7ff);
+  font-family: 'Cambria'; }
+
+.tabletext {
+  display: none; }
+
+.media {
+  background: linear-gradient(to top, lightblue, #ebffff);
+  border-radius: 10px;
+  text-align: justify; }
+
+#mediaobject {
+  display: none;
+  font-family: 'Cambria'; }
+
+.linkedmedia {
+  color: #CE00D6;
+  font-weight: bolder; }
+
+.mysticalwinter {
+  color: #7800FF;
+  font-weight: bolder; }
+
+/*POKEMON SECTION*/
+.pokemoncenter {
+  font-family: "Press Start 2P", cursive;
+  color: #001873;
+  max-width: 100%; }
+
+.pokemoncenteritem:hover {
+  -ms-transform: rotate(200deg);
+  /* IE 9 */
+  transform: rotate(360deg);
+  /* Standard syntax */
+  transition: transform .8s; }
+
+#pokemongames {
+  background-color: #70B7FF;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Cambria';
+  box-shadow: 5px 10px 8px 10px #4f72f0; }
+
+.pokemonstore {
+  font-family: "Mystery Quest", cursive; }
+
+#pokemonregionstext {
+  font-style: italic;
+  font-family: 'Canvas'; }
+
+/*MULTIMEDIA*/
+.multimediaSubtitle {
+  font-family: 'Canvas';
+  font-weight: bolder;
+  font-size: 20px; }
+
+.pcgames, .nintendogames {
+  font-family: "Orbitron", sans-serif;
+  text-decoration: underline;
+  text-decoration-color: #384FFF;
+  text-decoration-style: wavy; }
+
+.valorant, .pokemonsnap, .pokemontitles {
+  font-family: "Mystery Quest", cursive; }
+
+.valorant-text {
+  font-family: 'Canvas'; }
+
+div.polaroid {
+  width: 100%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px; }
+
+.polacontainer {
+  text-align: center;
+  padding: 10px 20px; }
+
+.imageItems:hover {
+  -ms-transform: scale(1.2);
+  /* Internet Explorer 9 */
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: transform .5s; }
+
+.cytherea {
+  font-family: "Spirax", cursive;
+  color: #9804FF;
+  font-weight: bold;
+  font-size: 18px; }
+
+#pikachustory {
+  background-color: #58B2FF;
+  padding: 5px;
+  border-radius: 5px;
+  font-family: 'Cambria';
+  box-shadow: 5px 10px 8px 10px #91D2FF;
+  display: none; }
+
+/* KH GAMES SECTION */
+.sorapaopu {
+  font-family: "Spirax", cursive;
+  display: none; }
+
+#paopuid {
+  background: radial-gradient(#57c7ff, #576dff);
+  padding: 5px;
+  border-radius: 10px; }
+
+.paopustory {
+  font-family: "Spirax", cursive; }
+
+.sorapaopugame {
+  display: none;
+  align-items: center;
+  justify-content: center; }
+
+#sorasecondgame {
+  display: none;
+  align-items: center;
+  justify-content: center; }
+
+canvas {
+  border: 5px ridge;
+  background: url(../../img/light-background1.jpg); }
+
+.sagatitle1, .sagatitle2, .sagatitle3, .sagatitle4, .sagatitle5 {
+  font-family: "Mystery Quest", cursive;
+  text-shadow: blue -1px -2px 0.5em; }
+
+#sagatext {
+  font-family: 'Cambria'; }
+
+.khmobile {
+  font-family: "Spirax", cursive;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px black;
+  text-align: center; }
+
+/*MANGA SECTION */
+.mangasection {
+  font-family: "Mystery Quest", cursive; }
+
+#mangasectionid {
+  background-color: #7aceff;
+  box-shadow: 5px 10px 8px darkblue;
+  background-color: black;
+  border-radius: 5px; }
+
+.randomtext {
+  font-family: "Spirax", cursive;
+  color: white;
+  font-weight: bolder; }
+
+#mangaid {
+  font-family: "Spirax", cursive;
+  background-color: #7aceff;
+  padding: 10px; }
+
+.mangaImages {
+  display: none; }
+
+.mangaImages:hover {
+  -ms-transform: scale(1.05);
+  /* Internet Explorer 9 */
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  transition: transform .3s; }
+
+.saotext2 {
+  display: none; }
+
+.nogamenolife {
+  font-family: "Spirax", cursive; }
+
+.nogamepar {
+  font-family: 'Cambria'; }
+
+.nogamesecond {
+  font-family: 'Cambria';
+  display: none; }
+
+#content_d {
+  font-family: Times New Roman;
+  width: 225px;
+  background: linear-gradient(#fff, #ccffff, #5a5a5a);
+  border: 1px solid #000;
+  border-radius: 5px;
+  margin-top: 45px;
+  margin-right: 30px;
+  box-shadow: 5px 10px 7px rgba(0, 0, 0, 0.5); }
+
+#content_d h1 {
+  margin: 2px;
+  text-align: center;
+  font-family: "Arial";
+  font-size: 20px;
+  margin-top: 0;
+  padding: 2px;
+  border-bottom: 1px solid #000; }
+
+#complementarios {
+  list-style: none;
+  padding: 0 0 0 1px;
+  margin: 0;
+  color: #000; }
+
+#complementarios li {
+  border-bottom: 2px solid #000; }
+
+#complementarios li img {
+  margin: 5px 5px 0px 5px;
+  float: left;
+  max-width: 100px;
+  max-height: 100px; }
+
+/*CONTACT SECTION*/
+#contacto {
+  background-color: #FFFFE0;
+  letter-spacing: 2px;
+  border: 1px solid black;
+  height: 50%; }
+
+.boton_enviar, .boton_borrar {
+  width: 20%;
+  float: right;
+  margin-right: 97px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: linear-gradient(#fff, #ccffff, #5a5a5a); }
+
+.boton_enviar:hover, .boton_borrar:hover {
+  width: 20%;
+  float: right;
+  border: 1px solid #000;
+  border-radius: 5px;
+  background: linear-gradient(#5a5a5a, #ccffff, #fff); }
+
+#pikachupngid {
+  text-align: center; }
+
+/*CONTACT SECTION*/
+.contacttitle {
+  font-family: 'Spirax', cursive;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px #8000ff; }
+
+.newsletter {
+  font-family: 'Spirax', cursive; }
+
+/*Sign up*/
+.form-group {
+  font-family: Cambria, cursive;
+  color: darkblue; }
+
+/*BEM*/
+/* Block */
+.btn {
+  text-decoration: none;
+  background-color: white;
+  color: #888;
+  border-radius: 5px;
+  display: inline-block;
+  margin: 10px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 5px; }
+
+/* Element */
+.btn__text {
+  padding: 0 10px;
+  border-radius: 0 5px 5px 0; }
+
+/* Modifier */
+.btn--gold {
+  border-color: #FFFDCB;
+  color: white;
+  background-color: #FFE779; }
+
+.btn--pink {
+  border-color: #FFFDCB;
+  color: white;
+  background-color: #FFB2FA; }
+
+/* Modifier */
+.btn--big {
+  font-size: 28px;
+  padding: 10px;
+  font-weight: 400; }
+
+/* Modifier */
+.btn--blue {
+  border-color: #0074D9;
+  color: white;
+  background-color: #0074D9; }
+
+.btn--green {
+  border-color: #00a84d;
+  color: white;
+  background-color: #91ffc3; }
+
+/*SASS IF*/
+.ifelse {
+  color: #9B0083; }
+
+.ifelse {
+  font-family: "Spirax", cursive;
+  font-weight: bold;
+  text-align: center; }
+
+/*Operations*/
+.box_one {
+  background-color: #001454;
+  width: 375px; }
+
+.box_two {
+  background-color: #C100C8;
+  width: 325px; }
+
+.box_three {
+  background-color: #FFFA75;
+  width: 425px; }
+
+.box_four {
+  background-color: #6B17C1;
+  width: 214.28571px; }
+
+.foot {
+  font-family: "Spirax", cursive;
+  background-color: black;
+  color: white;
+  padding: 30px;
+  border-radius: 10px; }
+
+/*medias*/
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+  #indexbackground {
+    background-color: #feffeb; }
+  .iframekh {
+    width: 70%;
+    height: 400px; }
+  #pagetitle {
+    font-size: 36px; }
+  #contacto {
+    padding-bottom: 800px; } }
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+  #indexbackground {
+    background-color: lightpink; }
+  #pikachustory {
+    display: flex; }
+  .mangaImages {
+    display: block; }
+  .nogamesecond {
+    display: block; }
+  #contacto {
+    padding-bottom: 200px; } }
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+  #indexbackground {
+    background-color: lightblue; }
+  .tabletext {
+    display: block; }
+  #mediaobject {
+    display: flex; }
+  .saotext2 {
+    display: block; }
+  .sorapaopugame {
+    display: flex; }
+  .sorapaopu {
+    display: block; }
+  #sorasecondgame {
+    display: flex; }
+  #contacto {
+    padding-bottom: 100px; } }
+
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  #indexbackground {
+    background-color: #feffeb; } }
